@@ -1,0 +1,17 @@
+IdProject = 3
+IdClient = 7
+IdFreelancer = 8
+
+paulo@silva.com (client)
+123456
+
+bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InBhdWxvQHNpbHZhLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImNsaWVudCIsImV4cCI6MTY2Njg4Njc2NSwiaXNzIjoiRGV2RnJlZWxhIiwiYXVkIjoiQ2xpZW50ZUZyZWVsYW5jZXJzIn0.F9wU7rOOAvqlK9UGr9RYxSuQhqD3U8N10-ch11bVUq0
+
+joao@carlos.com (freelancer)
+123456
+
+bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImpvYW9AY2FybG9zLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImZyZWVsYW5jZXIiLCJleHAiOjE2NjY2Mjg4ODgsImlzcyI6IkRldkZyZWVsYSIsImF1ZCI6IkNsaWVudGVGcmVlbGFuY2VycyJ9.c_jwJAwFxM8AZcPmkMhnN6bSjfn6YF1KSoJVACqPq-Q
+
+• Support to Skip / Take on SQL Server 2008
+
+	https://www.nuget.org/packages/EntityFrameworkCore.UseRowNumberForPaging/

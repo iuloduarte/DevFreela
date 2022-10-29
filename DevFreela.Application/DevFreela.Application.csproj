@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Implementations\ProjectService.cs" />
+    <Compile Remove="Services\Implementations\SkillService.cs" />
+    <Compile Remove="Services\Implementations\UserService.cs" />
+    <Compile Remove="Services\Interfaces\IProjectService.cs" />
+    <Compile Remove="Services\Interfaces\ISkillService.cs" />
+    <Compile Remove="Services\Interfaces\IUserService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="MediatR" Version="11.0.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Services\Implementations\ProjectService.cs" />
+    <None Include="Services\Implementations\SkillService.cs" />
+    <None Include="Services\Implementations\UserService.cs" />
+    <None Include="Services\Interfaces\IProjectService.cs" />
+    <None Include="Services\Interfaces\ISkillService.cs" />
+    <None Include="Services\Interfaces\IUserService.cs" />
+  </ItemGroup>
+
+</Project>
